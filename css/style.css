@@ -1,0 +1,56 @@
+/* horizontal/vertical radii using a slash */
+/* line 16, ../scss/main.scss */
+.t1 {
+  -webkit-column-count: 4;
+     -moz-column-count: 4;
+          column-count: 4;
+  -webkit-column-width: 75px;
+     -moz-column-width: 75px;
+          column-width: 75px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-column-rule: 1px solid #fff;
+     -moz-column-rule: 1px solid #fff;
+          column-rule: 1px solid #fff; }
+
+/* line 20, ../scss/main.scss */
+body {
+  background: maroon; }
+
+/* line 24, ../scss/main.scss */
+h1 {
+  color: gold;
+  text-shadow: #555 4px 4px 4px
+  /* color, h-offset, v-offset, blur */ }
+
+/* line 30, ../scss/main.scss */
+.t2 {
+  border: 2px solid #fff;
+  padding: 16px;
+  border-radius: 10px 5px / 20px 10px; }
+
+/*ul.menu{
+	list-style-type: none; 
+}
+ul.menu li {
+	float:left;
+}
+ul.menu li a {
+	border: 1px solid #000;
+	margin: 5px 15px;
+	padding: 15px 5px;
+}*/
+/* line 48, ../scss/main.scss */
+ul.menu {
+  list-style-type: none; }
+  /* line 49, ../scss/main.scss */
+  ul.menu li {
+    float: left; }
+    /* line 51, ../scss/main.scss */
+    ul.menu li a {
+      border: 1px solid #000;
+      margin: 12px 5px;
+      padding: 5px 15px; }
+
+/*# sourceMappingURL=style.css.map */

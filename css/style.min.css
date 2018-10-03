@@ -1,0 +1,4 @@
+.t1{-webkit-column-count:4;-moz-column-count:4;column-count:4;-webkit-column-width:75px;-moz-column-width:75px;column-width:75px;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px;-webkit-column-rule:1px solid #fff;-moz-column-rule:1px solid #fff;column-rule:1px solid #fff}
+body{background:maroon}
+h1{color:gold;text-shadow:#555 4px 4px 4px}
+.t2{border:2px solid #fff;padding:16px;border-radius:10px 5px / 20px 10px}

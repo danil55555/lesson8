@@ -1,0 +1,58 @@
+$color1:maroon;
+$color2:gold;
+@mixin element1 {
+  column-count: 4;
+  column-width: 75px;
+  column-gap: 20px;
+  column-rule: 1px solid #fff;
+}
+@mixin element2 {
+  text-shadow: #555 4px 4px 4px; /* color, h-offset, v-offset, blur */
+}
+/* horizontal/vertical radii using a slash */
+@mixin element3 {
+  border-radius: 10px 5px / 20px 10px;
+}
+.t1{
+	@include element1;
+}
+
+body{
+background: $color1;
+
+}
+h1{ 
+	color: $color2;
+	@include element2;
+
+
+}
+.t2{
+	border: 2px solid #fff;
+	padding: 16px;
+
+	@include element3;
+
+}
+/*ul.menu{
+	list-style-type: none; 
+}
+ul.menu li {
+	float:left;
+}
+ul.menu li a {
+	border: 1px solid #000;
+	margin: 5px 15px;
+	padding: 15px 5px;
+}*/
+ul.menu{list-style-type: none;
+li{
+	float:left;
+	a{
+		border: 1px solid #000;
+		margin: 12px 5px;
+		padding: 5px 15px;
+	}
+
+
+	} }
